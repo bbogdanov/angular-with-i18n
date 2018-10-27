@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="31b53770aad4bfdb8969bb1dff96b335df150767" datatype="html">
+        <source>Loading articles...</source>
+        <target>Зареждане на статии...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/article-helpers/article-list.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc0c9b684eac66b80ab72e8cb3292a6f7ce138a8" datatype="html">
+        <source>No articles are here... yet.</source>
+        <target>Няма все още статии тук</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/article-helpers/article-list.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="325da3ab5477d25e9d963e940a3a658e5f0bab47" datatype="html">
+        <source>Read more...</source>
+        <target>Прочети повече...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/article-helpers/article-preview.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2af9f88244cdd4ec450074564c5a7b0ed0ece0e" datatype="html">
+        <source>
+          © <x id="INTERPOLATION" equiv-text="{{ today | date: &apos;yyyy&apos; }}"/>.
+          An interactive learning project from <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Thinkster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+          Code licensed under MIT.
+        </source>
+        <target>
+          © <x id="INTERPOLATION" equiv-text="{{ today | date: &apos;yyyy&apos; }}"/>.
+          Интерактивен проект за учебни цели <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Thinkster<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+          Лиценз: MIT.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/footer.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="202904aeef1ccb16b5bee17ff4c5dd1b01481018" datatype="html">
+        <source>conduit</source>
+        <target>кондуит</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97fc8ec1cd254df1d8e29ff0f66fb48c41b12f6a" datatype="html">
+        <source>Home</source>
+        <target>Начало</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9334253ef244f8e8b8fba4c0cc09eb009c4f018" datatype="html">
+        <source>Sign in</source>
+        <target>Вход</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4a8e6d909a150e74b810b8fb8eb6b7f0283fe188" datatype="html">
+        <source>Sign up</source>
+        <target>Регистрация</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c08451107817d60456a8d3724e2695b8d884b04f" datatype="html">
+        <source>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> New Article
+        </source>
+        <target>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Нова статия
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15e67b1051bbd9ec59195714c0cec862b92da294" datatype="html">
+        <source>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Settings
+        </source>
+        <target>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Настройки
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/layout/header.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e0316d53b91296c550044ee97b3fc8342b6b38b" datatype="html">
+        <source>A place to share your <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Angular 2<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> knowledge.</source>
+        <target>Място да споделиш тойте <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Angular 2<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> познания.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36419a01f104df693ea23327e1ece121a79a632b" datatype="html">
+        <source>Your Feed</source>
+        <target>Твойте новини</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fd8a936cdcdfca60722ad664c6d1eb7a31a9abd" datatype="html">
+        <source>Global Feed</source>
+        <target>Цялостни новини</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a85da7d2b7887f7154a2722bb7bbb30437180d3e" datatype="html">
+        <source>Popular Tags</source>
+        <target>Популярни тагове</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffc04e1043931b6746c9952fb30c1de367bdd2f0" datatype="html">
+        <source>
+            Loading tags...
+        </source>
+        <target>
+          Зареждане на тагове...
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93be6a9db78a8de223c4d04b499837d6d8d25757" datatype="html">
+        <source>No tags are here... yet.</source>
+        <target>Няма все още тагове тук.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="501ab7635e47008e66946c648f04801925551d4f" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Edit Profile Settings
+        </source>
+        <target>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Смени профилните настройки
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3ff69921609881825fd395bc12260fca4ff80bd" datatype="html">
+        <source>
+           My Posts
+        </source>
+        <target> Мойте постове</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2eec798c5d2b6b3e9691ba3ba2c2c52d68f5f46" datatype="html">
+        <source>
+          Favorited Posts
+        </source>
+        <target>
+          Любоми постове
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc49f66c169fb36fb40dbfb55c4246bc98a2c0ec" datatype="html">
+        <source>Your Settings</source>
+        <target>Твойте настройки</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/settings/settings.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f373b455cd376be83c8187680b00257f6f944b58" datatype="html">
+        <source>
+          Update Settings
+        </source>
+        <target>
+          Обнови настройки
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/settings/settings.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e2a5789ea663a58c7204fa1513ffe03a14405676" datatype="html">
+        <source>
+          Or click here to logout.
+        </source>
+        <target>
+          Или цъкнете тук за изход
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/settings/settings.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

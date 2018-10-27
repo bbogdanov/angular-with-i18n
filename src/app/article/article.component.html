@@ -8,13 +8,13 @@
 
           <span [hidden]="!canModify">
           <a class="btn btn-sm btn-outline-secondary"
-             [routerLink]="['/editor', article.slug]">
+             [routerLink]="['/editor', article.slug]" i18n>
             <i class="ion-edit"></i> Edit Article
           </a>
 
           <button class="btn btn-sm btn-outline-danger"
             [ngClass]="{disabled: isDeleting}"
-            (click)="deleteArticle()">
+            (click)="deleteArticle()" i18n>
             <i class="ion-trash-a"></i> Delete Article
           </button>
         </span>
@@ -60,13 +60,13 @@
 
           <span [hidden]="!canModify">
           <a class="btn btn-sm btn-outline-secondary"
-             [routerLink]="['/editor', article.slug]">
+             [routerLink]="['/editor', article.slug]" i18n>
             <i class="ion-edit"></i> Edit Article
           </a>
 
           <button class="btn btn-sm btn-outline-danger"
             [ngClass]="{disabled: isDeleting}"
-            (click)="deleteArticle()">
+            (click)="deleteArticle()" i18n>
             <i class="ion-trash-a"></i> Delete Article
           </button>
         </span>
@@ -103,7 +103,7 @@
               </div>
               <div class="card-footer">
                 <img [src]="currentUser.image" class="comment-author-img" />
-                <button class="btn btn-sm btn-primary" type="submit">
+                <button class="btn btn-sm btn-primary" type="submit" i18n>
                  Post Comment
                 </button>
               </div>

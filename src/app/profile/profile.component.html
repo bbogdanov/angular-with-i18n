@@ -15,7 +15,7 @@
           </app-follow-button>
            <a [routerLink]="['/settings']"
               [hidden]="!isUser"
-              class="btn btn-sm btn-outline-secondary action-btn">
+              class="btn btn-sm btn-outline-secondary action-btn" i18n>
               <i class="ion-gear-a"></i> Edit Profile Settings
             </a>
         </div>
@@ -34,7 +34,7 @@
               <a class="nav-link"
                  routerLinkActive="active"
                  [routerLinkActiveOptions]="{ exact: true }"
-                 [routerLink]="['/profile', profile.username]">
+                 [routerLink]="['/profile', profile.username]" i18n>
                  My Posts
               </a>
             </li>
@@ -42,7 +42,7 @@
               <a class="nav-link"
                  routerLinkActive="active"
                  [routerLinkActiveOptions]="{ exact: true }"
-                 [routerLink]="['/profile', profile.username, 'favorites']">
+                 [routerLink]="['/profile', profile.username, 'favorites']" i18n>
                  Favorited Posts
               </a>
             </li>
